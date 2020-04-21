@@ -16,6 +16,7 @@ public class Theme {
 
     @Id
     @GeneratedValue
+    @EqualsAndHashCode.Exclude
     private Long id;
 
     @Column(nullable=false, unique=true)
